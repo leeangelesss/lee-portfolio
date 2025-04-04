@@ -38,7 +38,7 @@ const Education = () => {
 
       {/* Timeline section */}
       <div className="max-w-1000px mx-auto mt-20" ref={timelineRef}>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold text-center text-white mb-8">
+        <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold text-center text-white mb-8">
           <span className="text-[#89CFF0]">Educational </span> Background 👩‍🏫
         </h2>
         <EducationTimeline timelineElements={timelineElements} lineColor={lineColor} />
@@ -46,7 +46,7 @@ const Education = () => {
 
       {/* Certifications section */}
       <div className="mx-auto mt-20" ref={certificationsRef}>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold text-center text-white mb-8">
+        <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold text-center text-white mb-8">
           Certifications 🎖️
         </h2>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 mx-10">

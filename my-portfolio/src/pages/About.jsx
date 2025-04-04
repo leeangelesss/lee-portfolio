@@ -2,9 +2,8 @@ import React from "react";
 import profile from "../assets/profile.png";
 import SkillsCard from "../components/SkillsCard"; 
 import ContactCard from "../components/ContactCard";
-import IntroCard from "../components/IntroCard";  // Import the new IntroCard component
+import IntroCard from "../components/IntroCard"; 
 import { skills, contacts, introCard } from "../portfolio";
-import { LinearGradient } from "react-text-gradients";
 
 const About = () => {
   const techStacks = skills.filter((skill) => skill.type === 'tech stacks');
@@ -12,7 +11,6 @@ const About = () => {
 
   return (
     <div id="about" className="min-h-screen max-w-[1200px] my-20 mx-auto bg-[#000300] text-white">
-      {/* Reuse IntroCard */}
       <IntroCard
         title={introCard[0].title}
         image={profile}
@@ -26,23 +24,19 @@ const About = () => {
           <span className="text-[#89CFF0] text-2xl sm:text-3xl md:text-[25px] lg:text-[30px]">Professional </span>
           Skillset
         </h2>
-
-        {/* Tech Stacks Section */}
-        <SkillsCard skills={techStacks} title="Tech Stacks" />
-
-        {/* Tools Section */}
+        <SkillsCard skills={techStacks} title="Tech Stacks" />  
         <SkillsCard skills={tools} title="Tools" />
       </div>
 
       {/* Contacts Section */}
       <div className="mx-4 md:mx-6 sm:mx-8 lg:mx-10 my-20 py-5 bg-[#1a1a1a] rounded-lg">
-        <div className="flex items-center mx-10 py-5">
-          <LinearGradient gradient={['to left', '#05E8BA, #087EE1']}  className="text-2xl sm:text-2xl md:text-[24px] lg:text-[28px] font-bold text-[#89CFF0] text-center">
+        <div className="flex items-center mx-5 py-5 sm:mx-5 md:px-10 lg:px-10">
+          <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-bold text-center text-gradient">
             Contact
-          </LinearGradient>
+          </h2>
           <hr className="flex border-t-5 border-[#89CFF0] ml-4 w-[200px]" />
         </div>
-        <div className="flex justify-start flex-wrap px-10 md:justify-start md:px-5 lg:justify-center">
+        <div className="flex flex-col justify-start flex-wrap mx-auto px-1 sm:flex-col sm:px-4 md:justify-start md:px-10 md:flex-row lg:justify-start lg:px-10 lg:flex-row">
           {contacts.map((contact, index) => (
             <ContactCard key={index} contact={contact} /> 
           ))}

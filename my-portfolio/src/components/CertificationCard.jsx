@@ -12,14 +12,20 @@ const CertificationCard = ({ cert }) => {
         />
       </div>
       <div className="p-5 text-center">
-        <h3 className="text-md sm:text-lg font-medium text-[#89CFF0] mb-2">{cert.title}</h3>
+        <h3 className="text-md sm:text-lg font-medium text-[#89CFF0] mb-2">
+          <a 
+            href={cert.link} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:underline"
+          >
+            {cert.title}
+          </a>
+        </h3>
         <p className="text-sm text-white font-regular mb-2">
           ᯓ★ Issued by {cert.issuer} on {cert.date}
         </p>
         <div className="flex justify-center space-x-5 text-sm text-white font-semibold tracking-wide">
-          <a href={cert.link} target="_blank" rel="noopener noreferrer">
-            Verify
-          </a>
           <a
             href={cert.certificate}
             className="flex items-center"

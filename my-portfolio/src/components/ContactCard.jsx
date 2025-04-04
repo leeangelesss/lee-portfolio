@@ -7,16 +7,16 @@ const ContactCard = ({ contact }) => {
         <img
           src={contact.logo}
           alt={contact.title}
-          className="w-[50px] h-[50px] mb-2"
+          className="w-10 h-10 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain"
         />
       </div>
       <div className="px-4">
-        <h3 className="text-md font-regular">{contact.title}</h3>
+        <h3 className="text-xs sm:text-sm md:text-md lg:text-md font-normal">{contact.title}</h3>
         <a
           href={contact.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-lg font-bold tracking-wide pt-2 text-white hover:text-[#000]"
+          className="text-xs sm:text-sm md:text-lg lg:text-lg font-bold tracking-wide pt-2 text-white hover:text-[#000]"
         >
           {contact.username}
         </a>

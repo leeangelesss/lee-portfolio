@@ -1,6 +1,7 @@
 // For social media links
 import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 
+// For intro in pages
 import profile from "./assets/profile.png";
 import education from "./assets/education.png";
 
@@ -18,9 +19,9 @@ import js from './assets/skills-images/js.png';
 import ts from './assets/skills-images/ts.png';
 import react from './assets/skills-images/reactjs.png';
 import vite from './assets/skills-images/vite.png';
-import php from './assets/skills-images/php.png';
 import tailwindCSS from './assets/skills-images/tailwindCSS.png';
 import python from './assets/skills-images/python.png';
+import supabase from './assets/skills-images/supabase.png';
 
 // For Skills -- Tools
 import git from './assets/skills-images/git.png';
@@ -36,6 +37,7 @@ import email from './assets/contact-images/email.png';
 import linkedin from './assets/contact-images/linkedin.png';
 import github from './assets/contact-images/github.png';
 
+// For Certifications cover in Education Page
 import cisco from './assets/cisco.png';
 import meta from './assets/meta.png';
 import google from './assets/google.png';
@@ -46,6 +48,7 @@ import certificate3 from './assets/certificates/certificate3.pdf';
 import certificate4 from './assets/certificates/certificate4.pdf';
 import certificate5 from './assets/certificates/certificate5.pdf';
 import certificate6 from './assets/certificates/certificate6.pdf';
+import certificate7 from './assets/certificates/certificate7.pdf';
 
 
 export const navLinks = [
@@ -181,7 +184,15 @@ export const certifications = [
         date: "October 3, 2024",
         certificate: certificate6,
         link: "https://www.coursera.org/account/accomplishments/verify/9UH11WBPQUXW",
-    }
+    },
+    {
+        cover: cisco,
+        title: "CCNA: Enterprise Networking, Security, and Automation",
+        issuer: "Cisco",
+        date: "October 18, 2024",
+        certificate: certificate7,
+        link: "https://www.credly.com/earner/earned/badge/3188efcb-0297-43f6-a79f-1163cef65caa",
+    },
 ];
 
 export const skills = [
@@ -223,6 +234,11 @@ export const skills = [
     { 
         logo: python, 
         name: 'Python', 
+        type: 'tech stacks'
+    },
+    {
+        logo: supabase, 
+        name: 'Supabase', 
         type: 'tech stacks'
     },
     { 
@@ -278,8 +294,8 @@ export const contacts = [
     {
         logo: github,
         title: "My GitHub Profile:",
-        username: "/chamukoo",
-        link: "https://github.com/chamukoo"
+        username: "/leeangelesss",
+        link: "https://github.com/leeangelesss"
     },
 ];
 
