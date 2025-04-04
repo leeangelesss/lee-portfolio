@@ -2,15 +2,15 @@
 import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 
 // For intro in pages
-import profile from "./assets/profile2.png";
+import profile from "./assets/profile.png";
 import education from "./assets/education.png";
 
 // For Timeline in Education Page
-import pup from "./assets/images/pup-logo.png"; 
-import olfu from "./assets/images/olfu-logo.png";
-import mnhs from "./assets/images/mnhs-logo.png";
-import sja from "./assets/images/sja-logo.png";
-import tcmes from "./assets/images/tcmes-logo.png";
+import pup from "./assets/school-images/pup-logo.png"; 
+import olfu from "./assets/school-images/olfu-logo.png";
+import mnhs from "./assets/school-images/mnhs-logo.png";
+import sja from "./assets/school-images/sja-logo.png";
+import tcmes from "./assets/school-images/tcmes-logo.png";
 
 // For Skills -- Tech Stakcs
 import html from './assets/skills-images/html.png';
@@ -38,9 +38,9 @@ import linkedin from './assets/contact-images/linkedin.png';
 import github from './assets/contact-images/github.png';
 
 // For Certifications cover in Education Page
-import cisco from './assets/cisco.png';
-import meta from './assets/meta.png';
-import google from './assets/google.png';
+import cisco from './assets/cert-images/cisco.png';
+import meta from './assets/cert-images/meta.png';
+import google from './assets/cert-images/google.png';
 
 import certificate1 from './assets/certificates/certificate1.pdf';
 import certificate2 from './assets/certificates/certificate2.pdf';
@@ -51,7 +51,7 @@ import certificate6 from './assets/certificates/certificate6.pdf';
 import certificate7 from './assets/certificates/certificate7.pdf';
 
 // For Projects
-import project1 from './assets/aerosense.jpg';
+import project1 from './assets/project-images/aerosense.jpg';
 
 
 export const navLinks = [
