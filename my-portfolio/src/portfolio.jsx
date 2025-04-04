@@ -309,10 +309,11 @@ export const projects = [
     {
       id: 1,
       image: project1,
-      title: "AeroSense Monitoring App",
+      title: "AeroSense",
       description: "AeroSense Monitoring App is a real-time monitoring solution designed for tracking environmental conditions. It provides users with accurate data on air quality, temperature, humidity, and fire hazards such as smoke, kerosene, and LPG using IoT sensors. The app features intuitive dashboards and real-time alerts to help users make informed decisions.",
       techStacks: ["React", "Tailwind CSS", "Supabase"],
-      demoLink: "https://aerosense-thesis.vercel.app/",
+      githubLink: "https://github.com/leeangelesss/smart-exhaust-fan-monitoring-app",
+      demoLink: "https://aerosense-thesis.vercel.app/"
     },
 
     // Add more projects as needed
