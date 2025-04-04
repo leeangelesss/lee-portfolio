@@ -10,7 +10,7 @@ const Footer = () => {
     }
 
     return (
-        <footer className="bg-[#000300] text-white mt-20 py-4">
+        <footer className="bg-[#000300] text-white py-4">
             <p className="text-sm pt-4 text-center tracking-wider text-gray-300">
                 Made with 💙 by Lee Anne Angeles
             </p>

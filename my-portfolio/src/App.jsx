@@ -4,6 +4,7 @@ import AnimatedCursor from "react-animated-cursor"
 import Home from './pages/Main';
 import About from './pages/About';
 import Education from './pages/Education';
+import Project from './pages/Project';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import './App.css'; 
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/project" element={<Project />} />
         {/* Redirect to Home for any undefined routes */}
         <Route path="*" element={<Home />} />
       </Routes>

@@ -1,5 +1,4 @@
 import React from "react";
-import profile from "../assets/profile.png";
 import SkillsCard from "../components/SkillsCard"; 
 import ContactCard from "../components/ContactCard";
 import IntroCard from "../components/IntroCard"; 
@@ -13,7 +12,7 @@ const About = () => {
     <div id="about" className="min-h-screen max-w-[1200px] my-20 mx-auto bg-[#000300] text-white">
       <IntroCard
         title={introCard[0].title}
-        image={profile}
+        image={introCard[0].image}
         subtitle={introCard[0].subtitle}
         intro={introCard[0].intro}
       />

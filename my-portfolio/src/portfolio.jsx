@@ -2,7 +2,7 @@
 import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 
 // For intro in pages
-import profile from "./assets/profile.png";
+import profile from "./assets/profile2.png";
 import education from "./assets/education.png";
 
 // For Timeline in Education Page
@@ -50,6 +50,9 @@ import certificate5 from './assets/certificates/certificate5.pdf';
 import certificate6 from './assets/certificates/certificate6.pdf';
 import certificate7 from './assets/certificates/certificate7.pdf';
 
+// For Projects
+import project1 from './assets/aerosense.jpg';
+
 
 export const navLinks = [
     {
@@ -65,8 +68,8 @@ export const navLinks = [
       path: "/Education"
     },
     {
-      name: "Portfolio",
-      path: "/Portfolio"
+      name: "Project",
+      path: "/Project"
     },
 ];
 
@@ -74,15 +77,13 @@ export const navLinks = [
 
 export const introCard = [
     {
-        title: "About",
+        title: "About Me",
         image: profile,
-        subtitle: "Get To Know Me",
-        intro: "Hello! 👋 I'm Lee Anne, a dedicated Computer Engineering student passionate about both web development and design. Throughout my college journey, I’ve gained proficiency in tools such as HTML, CSS, JavaScript, ReactJS, and Tailwind CSS, allowing me to create dynamic, responsive web applications. I also use Figma for wireframing and prototyping, turning design concepts into reality. In addition to web development, I have a strong interest in networking, which led me to choose network administration as my college elective. My enthusiasm deepened through hands-on experience in Cisco courses, where I found learning about networks both engaging and rewarding. Currently, I’m expanding my skill set by diving into React Native for mobile application development. With this growing expertise, I aim to bridge the gap between web and mobile technologies, contributing to innovative projects that seamlessly combine design and functionality.",
+        intro: "Hello! 👋 I'm Lee Anne, a dedicated Computer Engineering student passionate about both web development and design. Throughout my college journey, I’ve gained proficiency in tools such as HTML, CSS, JavaScript, and React, allowing me to create rresponsive web applications. I also use Figma for wireframing and prototyping, turning design concepts into reality. In addition to web development, I have a strong interest in networking, which led me to choose network administration as my college elective. Currently, I’m expanding my skill set by diving into React Native for mobile application development. With this growing expertise, I aim to bridge the gap between web and mobile technologies, contributing to innovative projects that seamlessly combine design and functionality.",
     },
     {
-        title: "Education",
+        title: "Basic Qualifications",
         image: education,
-        subtitle: " Basic Qualification and Certifications",
         intro: "Welcome to my Education page! 🙋‍♀️ Here, you'll find a summary of my academic qualifications and the journey that has shaped my career. Education is central to my growth, and I’m dedicated to continuous learning and staying updated with the latest advancements in technology. This page showcases the key milestones of my educational journey and my commitment to lifelong learning.",
     },
 ];
@@ -221,6 +222,11 @@ export const skills = [
         name: 'React', 
         type: 'tech stacks'
     },
+    { 
+        logo: react, 
+        name: 'React Native', 
+        type: 'tech stacks'
+    },
     {
         logo: vite,
         name: 'Vite',
@@ -298,6 +304,19 @@ export const contacts = [
         link: "https://github.com/leeangelesss"
     },
 ];
+
+export const projects = [
+    {
+      id: 1,
+      image: project1,
+      title: "AeroSense Monitoring App",
+      description: "AeroSense Monitoring App is a real-time monitoring solution designed for tracking environmental conditions. It provides users with accurate data on air quality, temperature, humidity, and fire hazards such as smoke, kerosene, and LPG using IoT sensors. The app features intuitive dashboards and real-time alerts to help users make informed decisions.",
+      techStacks: ["React", "Tailwind CSS", "Supabase"],
+      demoLink: "https://aerosense-thesis.vercel.app/",
+    },
+
+    // Add more projects as needed
+  ];
 
 export const footer = [
     {
