@@ -29,7 +29,7 @@ const ProjectCard = ({ image, title, description, techStacks, githubLink, demoLi
                     href={demoLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-500 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-600 transition-shadow shadow-md hover:shadow-lg"
+                    className="bg-blue-500 text-white px-5 py-2 rounded-lg text-xs font-medium hover:bg-blue-600 transition-shadow shadow-md hover:shadow-lg"
                     >
                     Demo
                 </a>
@@ -40,7 +40,7 @@ const ProjectCard = ({ image, title, description, techStacks, githubLink, demoLi
                 href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-yellow-200 text-yellow-900 px-5 py-2 rounded-lg text-sm font-medium hover:bg-yellow-400 transition-shadow shadow-md hover:shadow-lg"
+                className="bg-yellow-200 text-yellow-900 px-5 py-2 rounded-lg text-xs font-medium hover:bg-yellow-400 transition-shadow shadow-md hover:shadow-lg"
                 >
                 ⭐ Star Repository
             </a>

@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsCard = ({ skills, title }) => {
   return (
-    <div className="my-10 mx-auto w-full flex flex-col">
+    <div className="my-5 mx-auto w-full flex flex-col">
       <div className="flex mb-5 items-center mx-10">
         <hr className="flex border-t-5 border-[#89CFF0] mr-4 w-[100px]" />
         <h3 className="text-lg sm:text-lg md:text-xl lg:text-2xl font-bold text-gradient">{title}</h3>
