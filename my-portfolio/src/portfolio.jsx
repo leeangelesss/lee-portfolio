@@ -224,7 +224,7 @@ export const skills = [
     },
     { 
         logo: react, 
-        name: 'React Native', 
+        name: 'Native', 
         type: 'tech stacks'
     },
     {

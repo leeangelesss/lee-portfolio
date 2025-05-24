@@ -13,10 +13,10 @@ const SkillsCard = ({ skills, title }) => {
             <img
               src={skill.logo}
               alt={skill.name}
-              className="w-[75px] h-[75px] transition-transform duration-300 hover:scale-110"
+              className="w-[45px] h-auto sm:w-[60px] md:w-[75px] lg:w-[75px] transition-transform duration-300 hover:scale-110"
             />
             {/* Display skill name below the image */}
-            <p className="mt-3 text-white text-md font-regular">{skill.name}</p>
+            <p className="mt-3 text-white text-xs sm:text-sm md:text-md lg:text-md font-regular">{skill.name}</p>
           </div>
         ))}
       </div>

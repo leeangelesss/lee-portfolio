@@ -35,13 +35,13 @@ const Skills = () => {
 
   return (
     <div className="mt-20 mx-auto text-white">
-      <h2 className="text-3xl font-bold mb-6 text-center">Professional Skillset 💡 </h2>
+      <h2 className="text-3xl font-bold mb-6 text-center text-gradient">Professional Skillset 💡 </h2>
 
       {/* Tech Stacks Section */}
       <div className="my-20 mx-auto max-w-[1100px]">
         <div className="flex items-center mb-5 mx-10">
           <hr className="flex border-t-5 border-[#89CFF0] mr-4 w-[100px]" />
-          <h3 className="text-2xl font-medium">• Tech Stacks</h3>
+          <h3 className="text-sm sm:text-sm md:text-md lg:text-lg font-medium text-gradient">Tech Stacks</h3>
         </div>
         <div className="flex justify-center flex-wrap md:mx-20">
           {techStacks.map((skill) => (
@@ -56,7 +56,7 @@ const Skills = () => {
       <div className="my-20 mx-auto max-w-[1100px]">
         <div className="flex items-center mb-5 mx-10">
           <hr className="flex border-t-5 border-[#89CFF0] mr-4 w-[100px]" />
-          <h3 className="text-2xl font-medium">• Tools</h3>
+          <h3 className="text-sm sm:text-sm md:text-md lg:text-lg font-medium text-gradient">Tools</h3>
         </div>
         <div className="flex justify-center flex-wrap md:mx-20">
           {tools.map((skill) => (

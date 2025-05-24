@@ -14,11 +14,11 @@ const IntroCard = ({ title, image, intro }) => {
           <img
             src={image}
             alt={title}
-            className="w-32 sm:w-48 md:w-64 lg:w-80 max-w-full h-auto rounded-full shadow-md mb-5 md:mb-0 transition-transform duration-300 transform hover:scale-105"
+            className="w-32 sm:w-48 md:w-64 lg:w-80 max-w-full h-auto rounded-full mb-5 md:mb-0 transition-transform duration-300 transform hover:scale-105"
           />
         </div>
         <div className="w-full p-5 md:w-2/3 flex flex-col justify-center items-center md:items-start">
-          <p className="text-gray-400 text-md font-normal mb-2 text-justify tracking-wide">
+          <p className="text-gray-400 text-md font-normal mb-2 text-xs sm:text-sm md:text-md lg:text-md text-justify tracking-wide">
             {intro}
           </p>
         </div>
