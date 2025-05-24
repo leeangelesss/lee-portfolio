@@ -84,7 +84,7 @@ export const introCard = [
     {
         title: "Basic Qualifications",
         image: education,
-        intro: "Welcome to my Education page! 🙋‍♀️ Here, you'll find a summary of my academic qualifications and the journey that has shaped my career. Education is central to my growth, and I’m dedicated to continuous learning and staying updated with the latest advancements in technology. This page showcases the key milestones of my educational journey and my commitment to lifelong learning.",
+        intro: "Welcome to my Education page! 🙋‍♀️ Here, you'll find a summary of my academic qualifications, internship experience, and the journey that has shaped my career. Education is central to my growth, and I’m dedicated to continuous learning and staying updated with the latest advancements in technology. Alongside my academic pursuits, I completed an internship where I gained valuable hands-on experience in the IT field. This page showcases the key milestones of my educational journey, practical experience, and my commitment to lifelong learning."
     },
 ];
 
@@ -234,7 +234,7 @@ export const skills = [
     },
     { 
         logo: tailwindCSS, 
-        name: 'TailwindCSS', 
+        name: 'Tailwind', 
         type: 'tech stacks'
     },
     { 

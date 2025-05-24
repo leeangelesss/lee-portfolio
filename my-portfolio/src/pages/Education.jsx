@@ -39,7 +39,7 @@ const Education = () => {
       {/* Timeline section */}
       <div className="max-w-1000px mx-auto mt-20" ref={timelineRef}>
         <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold text-center text-white mb-8">
-          <span className="text-[#89CFF0]">Educational </span> Background 👩‍🏫
+          <span className="text-gradient">Educational </span> Background 👩‍🏫
         </h2>
         <EducationTimeline timelineElements={timelineElements} lineColor={lineColor} />
       </div>

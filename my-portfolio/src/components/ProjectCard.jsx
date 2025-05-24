@@ -42,7 +42,7 @@ const ProjectCard = ({ image, title, description, techStacks, githubLink, demoLi
                 rel="noopener noreferrer"
                 className="bg-yellow-200 text-yellow-900 px-5 py-2 rounded-lg text-sm font-medium hover:bg-yellow-400 transition-shadow shadow-md hover:shadow-lg"
                 >
-                ⭐ Star the Repository
+                ⭐ Star Repository
             </a>
         </div>
       </div>

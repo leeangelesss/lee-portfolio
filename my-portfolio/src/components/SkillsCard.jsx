@@ -5,15 +5,15 @@ const SkillsCard = ({ skills, title }) => {
     <div className="my-10 mx-auto w-full flex flex-col">
       <div className="flex mb-5 items-center mx-10">
         <hr className="flex border-t-5 border-[#89CFF0] mr-4 w-[100px]" />
-        <h3 className="text-2xl font-medium">• {title}</h3>
+        <h3 className="text-lg sm:text-lg md:text-xl lg:text-2xl font-bold text-gradient">{title}</h3>
       </div>
-      <div className="flex justify-center flex-wrap">
+      <div className="flex justify-center flex-wrap px-2">
         {skills.map((skill) => (
-          <div key={skill.name} className="flex flex-col items-center m-2 p-5">
+          <div key={skill.name} className="flex flex-col items-center m-2 p-4">
             <img
               src={skill.logo}
               alt={skill.name}
-              className="w-[45px] h-auto sm:w-[60px] md:w-[75px] lg:w-[75px] transition-transform duration-300 hover:scale-110"
+              className="w-[45px] h-auto sm:w-[55px] md:w-[65px] lg:w-[75px] transition-transform duration-300 hover:scale-110"
             />
             {/* Display skill name below the image */}
             <p className="mt-3 text-white text-xs sm:text-sm md:text-md lg:text-md font-regular">{skill.name}</p>
